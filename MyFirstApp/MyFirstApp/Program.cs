@@ -5,14 +5,16 @@ Console.WriteLine("Hello, World!");
 
 static double GetAverage(int[] numbers)
 {
-    int jeszczeInnaNazwa = 0;
+
+    int sumaDoSredniej = 0;
     
     foreach (var number in numbers)
     {
-        jeszczeInnaNazwa += number;
+        sumaDoSredniej += number;
     }
 
-    return (double)jeszczeInnaNazwa / numbers.Length;
+    return (double)sumaDoSredniej / numbers.Length;
+
 }
 
 int[] numbers = { 1,2,3,4};
