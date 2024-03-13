@@ -3,7 +3,7 @@
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello,  Git!");
 Console.WriteLine("Hello,  pjatk!");
-Console.WriteLine("Hello,  apbd!");
+
 
 static double GetAverage(int[] numbers)
 {
